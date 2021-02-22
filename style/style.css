@@ -1,0 +1,35 @@
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #4F98CA;
+    margin: 0px;
+}
+
+.logo-resize img {
+    max-height: 100px;
+}
+
+.nav-bar-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: space-around;
+    flex-basis: 75%;
+}
+
+.nav-list-item {
+    margin: 15px;
+}
+
+.nav-list-item-active {
+    margin: 15px;
+    border: solid;
+    border-color: #EFFFFB;
+    background-color: #4FD890;
+
+
+}
