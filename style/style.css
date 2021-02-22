@@ -1,3 +1,7 @@
+
+
+
+
 .country_image img {
     max-height: 300px;
     
@@ -55,4 +59,54 @@
     background-color: #4FD890;
 
 
+}
+
+
+.cat{
+    max-width: 30%;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    background-color: #272727;
+    color:white;
+    
+}
+
+.cat-heading{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Archivo Black', sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.cat-list{
+    padding-right: 25px;
+    flex-wrap:wrap;
+    font-size:20px;
+    border-radius: 10px;
+    font-family: 'Judson', serif;
+    background-color: #4F98CA;
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+}
+
+
+
+.categories {
+    margin-top: 50px;
+    margin-bottom:100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+h1{
+    font-family: 'Archivo Black', sans-serif;
+    text-align:center;
+    color:#272727;
 }
