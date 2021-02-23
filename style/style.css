@@ -120,6 +120,7 @@ h1{
     color:#272727;
 }
 
+
 #germany_images{
     display: flex;
     flex-basis: 45%;
@@ -134,4 +135,3 @@ section div img {
 
 .belgium-pano img {
     width: 100%;
-}
