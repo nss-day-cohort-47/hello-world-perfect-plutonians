@@ -46,7 +46,7 @@ body{
     list-style-type: none;
     display: flex;
     flex-direction: row;
-    align-items: space-around;
+    align-content: space-around;
     flex-basis: 75%;
 }
 
@@ -134,4 +134,12 @@ section div img {
 }
 
 .belgium-pano img {
-    width: 100%;
+    width: 100%;}
+
+.main_img img{
+    width:100%;
+}
+
+.country_image_ireland img{
+    width:100%;
+}
