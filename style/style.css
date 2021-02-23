@@ -18,6 +18,7 @@ body{
 }
 
 .country_info {
+    text-align: left;
     margin-left: 50px;
     margin-right: 50px;
     
@@ -103,7 +104,7 @@ body{
 }
 
 
-
+hello
 .categories {
     margin-top: 50px;
     margin-bottom:100px;
@@ -116,11 +117,14 @@ body{
 
 h1{
     font-family: 'Archivo Black', sans-serif;
-    text-align:center;
     color:#272727;
 }
-
-
+.country_heading {
+    text-align: center;
+}
+.main_heading{
+    text-align: center;
+}
 #germany_images{
     display: flex;
     flex-basis: 45%;
