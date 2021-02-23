@@ -110,3 +110,7 @@ h1{
     text-align:center;
     color:#272727;
 }
+
+.ireland-img-resize {
+    max-width: 600px;
+}
