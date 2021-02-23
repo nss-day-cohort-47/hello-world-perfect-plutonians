@@ -49,6 +49,8 @@ body{
     flex-direction: row;
     align-content: space-around;
     flex-basis: 75%;
+    font-size:larger;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .nav-list-item {
