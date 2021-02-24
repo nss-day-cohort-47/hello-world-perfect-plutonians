@@ -2,6 +2,7 @@
 
 body{
     background-color: #EFFFFB;
+    margin: 0px;
 }
 
 .country_image img {
@@ -10,9 +11,12 @@ body{
 }
 
 .country_section {
+    margin-left:50px;
+    margin-right:50px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 40px;
+    margin-top: 0px;
+    margin-bottom:50px;
     padding-bottom: 50px;
     border-bottom: 3px solid #4FD890;
 }
@@ -52,7 +56,9 @@ body{
     font-size:larger;
     font-family: 'Archivo Black', sans-serif;
 }
+
 .nav-list-item:hover{
+    padding-top:7px;
     margin: 15px;
     border:solid;
     background-color:aquamarine;
@@ -62,25 +68,49 @@ body{
     font-size: 20px;
 }
 .nav-list-item {
-    margin: 15px;
+    margin: 25px;
+    
+}
+
+.nav-list-item a{
+    color:#EFFFFB;
 }
 
 .nav-list-item-active {
-    margin: 15px;
+    /* margin: 15px;
     border: solid;
     border-color: #EFFFFB;
-    background-color: #4FD890;
+    background-color: #4FD890; */
+    border-top: #EFFFFB solid 3px;
+    border-bottom: #EFFFFB solid 3px;
+    justify-content: center;
+    padding-bottom: 0px;
+    margin: 15px;
+    margin-top: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:#EFFFFB;
+}
 
+.nav-list-item-active a{
+    color:#EFFFFB;
+}
 
+a {
+    text-decoration: none;
 }
 
 
 .cat{
     width: 30%;
+    min-width: 200px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
-    background-color: #4F98CA;
+    background-color:  #EFFFFB;
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-right:10px;
   
 }
 
@@ -106,7 +136,7 @@ body{
     font-size:20px;
     border-radius: 10px;
     font-family: 'Judson', serif;
-    color:white;
+    color: #EFFFFB;
     padding-top: 10px;
     padding-bottom: 25px;
     min-height: 150px;
@@ -135,9 +165,13 @@ h2 {
 }
 
 h1{
+    padding-top:30px;
+    padding-bottom: 100px;
+    margin-top: 0px;
     font-family: 'Archivo Black', sans-serif;
     color:#272727;
     text-align: center;
+    background-image: linear-gradient(#4FD890,#EFFFFB);
 }
 
 .country_heading {
@@ -159,14 +193,19 @@ section div img {
 }
 
 .belgium-pano img {
-    width: 100%;}
+    width: 100%;
+    margin-bottom: -5px;
+}
 
 .main_img img{
     width:100%;
+    margin-bottom: -5px;
 }
 
 .country_image_ireland img{
     width:100%;
+    margin-bottom: -5px;
+
 }
 
 
@@ -174,4 +213,47 @@ footer {
     background-color: #4FD890;
     padding-top: 10px;
     padding-bottom: 10px;
+    color:#EFFFFB;
+}
+
+
+button {
+    color:white;
+    background-color: #4F98CA;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border: white;
+    border-radius: 5px;
+
+}
+button:hover{
+    color:#272727;
+    background-color: #4FD890!important;
+    border: white;
+    border-radius: 7px;
+}
+
+.cat:hover{
+    background-color: #4F98CA;
+}
+
+.contact-info{
+    display:flex;
+    background-color: #4FD890;
+    padding-left: 4%;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+    
+.number{
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.number a{
+    color: white;
 }
