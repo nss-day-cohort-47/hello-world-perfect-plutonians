@@ -52,7 +52,15 @@ body{
     font-size:larger;
     font-family: 'Archivo Black', sans-serif;
 }
-
+.nav-list-item:hover{
+    margin: 15px;
+    border:solid;
+    background-color:aquamarine;
+    border-color: #EFFFFB;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
 .nav-list-item {
     margin: 15px;
 }
