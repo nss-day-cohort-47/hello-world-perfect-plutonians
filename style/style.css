@@ -69,10 +69,14 @@ body{
 
 .cat{
     width: 30%;
+    min-width: 200px;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
     background-color: #4F98CA;
+    margin-bottom:30px;
+    margin-left:10px;
+    margin-right:10px;
   
 }
 
@@ -167,3 +171,31 @@ footer {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+
+button {
+    color:white;
+    background-color: #4F98CA;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    padding-right:20px;
+    border: white;
+    border-radius: 5px;
+
+}
+
+.section_paragraph1{
+    display: none;
+}
+
+.buttoon:hover + .section_paragraph1{
+    display:block;
+}
+
+/* .button1:hover > {
+    color:#272727;
+    background-color: #4FD890!important;
+    border: white;
+    border-radius: 7px;
+} */
