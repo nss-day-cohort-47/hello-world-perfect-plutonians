@@ -257,3 +257,16 @@ button:hover{
 .number a{
     color: white;
 }
+
+.button2 {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+p {
+    display: none;
+}
+
+button:hover + p {
+    display: inline;
+}
