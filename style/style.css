@@ -57,9 +57,23 @@ body{
     font-family: 'Archivo Black', sans-serif;
 }
 
+.nav-list-item:hover{
+    padding-top:7px;
+    margin: 15px;
+    border:solid;
+    background-color:aquamarine;
+    border-color: #EFFFFB;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+}
 .nav-list-item {
     margin: 25px;
     
+}
+
+.nav-list-item a{
+    color:#EFFFFB;
 }
 
 .nav-list-item-active {
@@ -75,8 +89,11 @@ body{
     margin-top: 12px;
     padding-top: 10px;
     padding-bottom: 10px;
+    color:#EFFFFB;
+}
 
-
+.nav-list-item-active a{
+    color:#EFFFFB;
 }
 
 a {
@@ -196,6 +213,7 @@ footer {
     background-color: #4FD890;
     padding-top: 10px;
     padding-bottom: 10px;
+    color:#EFFFFB;
 }
 
 
@@ -233,5 +251,9 @@ button:hover{
     
 .number{
     margin-right: 10px;
-    margin-left: 10px
+    margin-left: 10px;
+}
+
+.number a{
+    color: white;
 }
